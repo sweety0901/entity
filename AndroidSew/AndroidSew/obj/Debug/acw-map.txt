@@ -1,0 +1,16 @@
+AndroidSew.ActivityAbout, AndroidSew;md588689ab42a3d31a7963465e36a8ffa4d.ActivityAbout
+AndroidSew.ActivityAbout, AndroidSew, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md588689ab42a3d31a7963465e36a8ffa4d.ActivityAbout
+AndroidSew.ActivityAbout;md588689ab42a3d31a7963465e36a8ffa4d.ActivityAbout
+androidsew.ActivityAbout;md588689ab42a3d31a7963465e36a8ffa4d.ActivityAbout
+AndroidSew.ActivityCatalog, AndroidSew;md588689ab42a3d31a7963465e36a8ffa4d.ActivityCatalog
+AndroidSew.ActivityCatalog, AndroidSew, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md588689ab42a3d31a7963465e36a8ffa4d.ActivityCatalog
+AndroidSew.ActivityCatalog;md588689ab42a3d31a7963465e36a8ffa4d.ActivityCatalog
+androidsew.ActivityCatalog;md588689ab42a3d31a7963465e36a8ffa4d.ActivityCatalog
+AndroidSew.MainActivity, AndroidSew;md588689ab42a3d31a7963465e36a8ffa4d.MainActivity
+AndroidSew.MainActivity, AndroidSew, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md588689ab42a3d31a7963465e36a8ffa4d.MainActivity
+AndroidSew.MainActivity;md588689ab42a3d31a7963465e36a8ffa4d.MainActivity
+androidsew.MainActivity;md588689ab42a3d31a7963465e36a8ffa4d.MainActivity
+AndroidSew.ActivityOrder, AndroidSew;md588689ab42a3d31a7963465e36a8ffa4d.ActivityOrder
+AndroidSew.ActivityOrder, AndroidSew, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md588689ab42a3d31a7963465e36a8ffa4d.ActivityOrder
+AndroidSew.ActivityOrder;md588689ab42a3d31a7963465e36a8ffa4d.ActivityOrder
+androidsew.ActivityOrder;md588689ab42a3d31a7963465e36a8ffa4d.ActivityOrder

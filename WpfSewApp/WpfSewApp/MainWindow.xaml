@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfSewApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfSewApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="231.5" Width="277.5" Background="#FFB5D5CA" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="TLogin" HorizontalAlignment="Left" Height="22" Margin="37,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="194" Background="White"/>
+        <TextBox x:Name="TPassword" HorizontalAlignment="Left" Height="22" Margin="37,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="194"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="37,31,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="37,85,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BLogin" Content="Войти" HorizontalAlignment="Left" Padding="5" Margin="147,149,0,0" VerticalAlignment="Top" Width="84" Click="BLogin_Click" Background="#FFE0A9AF"/>
+        <Button x:Name="BRegistration" Content="Регистрация" Padding="5" HorizontalAlignment="Left" Margin="37,149,0,0" VerticalAlignment="Top" Width="84" Click="BRegistration_Click" Background="#FFE0A9AF"/>
+    </Grid>
+</Window>

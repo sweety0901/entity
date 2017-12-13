@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f02f901121f409797062db9fe88eb55" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="sewModel.ЕдИзмерения" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.Заказ" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.ЗаказанныеИзделия" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.Изделия_" Width="1.5" PointX="8.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.ИзмерениеНоменклатуры" Width="1.5" PointX="8" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.Пользователь" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.Роль" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.СкладТкани" Width="1.5" PointX="8" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.СкладФурнитуры" Width="1.5" PointX="8" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.Ткани_" Width="1.5" PointX="5.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.ТканиИзделия" Width="1.5" PointX="11" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.Фурнитура_" Width="1.5" PointX="5.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.ФурнитураИзделия" Width="1.5" PointX="11" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sewModel.ЭтапВыполнения" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="sewModel.FK_ИзмерениеНоменклатуры_ЕдИзмерения" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_Заказ_Пользователь" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_Заказ_Пользователь1" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_Заказ_ЭтапВыполнения" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_ЗаказанныеИзделия_Заказ" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_ТканиИзделия_Изделия_" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_ФурнитураИзделия_Изделия_" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_ИзмерениеНоменклатуры_Ткани_" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_ИзмерениеНоменклатуры_Фурнитура_" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_Пользователь_Роль" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_СкладТкани_Ткани_" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_СкладФурнитуры_Фурнитура_" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_ТканиИзделия_Ткани_" ManuallyRouted="false" />
+        <AssociationConnector Association="sewModel.FK_ФурнитураИзделия_Фурнитура_" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="sewModel.Table" Width="1.5" PointX="0.75" PointY="8.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
